@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="result.html" class="form-1">
+        <fieldset class="field">
+            <legend class="title">This is my form</legend>
+            <table class="form-table">
+                <tr class="row">
+                    <td class="labels"><label for="mail" >Email:</label></td>
+                    <td><input type="email" id="mail" required class="input-field"></td>
+                </tr>
+                <tr>
+                    <td class="labels"><label for="pass">Password:</label></td>
+                    <td><input type="password" id="pass" required class="input-field"></td>
+                </tr>
+                <tr>
+                    <td class="labels"><label for="cpass">Confirm Password:</label></td>
+                    <td><input type="password" id="cpass" required class="input-field"></td>
+                </tr>
+                <tr>
+                    <td class="labels"><label for="doc">Upload Your Picture:</label></td>
+                    <td><input type="file" id="doc" required></td>
+                </tr>
+                <tr>
+                    <td class="labels"><label>Gender:</label></td>
+                    <td><input type="radio" id="male" name="gender"><label for="male" >Male</label><input type="radio" id="female" name="gender" required><label for="female">Female</label></td> 
+                </tr>
+                <tr>
+                    <td class="labels"><label for="country">Select Country:</label></td>
+                    <td>
+                        <select id="country" required class="input-field">
+                            <option value="india">India</option>
+                            <option value="america">America</option>
+                            <option value="indonesia">Indonesia</option>
+                            <option value="england">England</option>
+                            <option value="russia">Russia</option>
+                            <option value="australia">Australia</option>
+                        </select>
+                </td>
+                </tr>
+                <tr>
+                    <td class="labels"><label>Hobby:</label></td>
+                    <td><input type="checkbox" id="box1" required class="input-field" name="games"><label for="box1">Cricket</label><input type="checkbox" id="box2" name="games" required class="input-field"><label for="box2">Football</label></td>
+                </tr>
+                <tr>
+                    <td class="labels"><label for="address">Address:</label></td>
+                    <td><textarea id="address" required class="input-field" cols="26" rows="6"></textarea></td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td><input type="submit" required class="input-field" value="Submit"></td>
+                </tr>
+            </table>
+        </fieldset>
+        
+    </form>
+</body>
+</html>
